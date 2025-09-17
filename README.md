@@ -44,3 +44,6 @@ Setup environment variables in .env:
 env
 Copy code
 
+![home Screen](./screenshots/home.png)
+![lightmode Screen](./screenshots/lightmode.png)
+![darkmode Screen](./screenshots/darkmode.png)
