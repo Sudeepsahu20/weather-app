@@ -1,17 +1,46 @@
-<<<<<<< HEAD
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌤 Weather App
 
-Currently, two official plugins are available:
+A modern React-based weather application that allows users to check the current weather and 5-day forecast for any city in the world. The app features dark/light mode toggle, animated backgrounds based on weather conditions, and a responsive UI.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔹 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# weather-app
-A modern weather application built with React, providing current weather conditions and 5-day forecasts. Features dynamic backgrounds, particle effects, and a dark/light mode toggle. Powered by OpenWeatherMap API.
->>>>>>> 17f6437734e8414b9375ee30814d3819455d5bc6
+- Search weather by **city name**  
+- Get **current weather** details:
+  - Temperature
+  - Feels like
+  - Humidity
+  - Weather condition
+  - Location (city & country)
+- 5-day weather forecast at **12:00 PM** for each day  
+- **Animated weather effects** using particles:
+  - Rain & Drizzle
+  - Thunderstorm
+  - Snow  
+- **Dark/Light mode** toggle  
+- Responsive design for all devices  
+
+---
+
+## ⚡ Installation
+
+1. Clone this repository:  
+
+git clone https://github.com/Sudeepsahu20/weather-app.git
+Navigate to the project folder:
+
+bash
+Copy code
+cd weather-app
+Install dependencies:
+
+bash
+Copy code
+npm install
+Setup environment variables in .env:
+
+env
+Copy code
+
